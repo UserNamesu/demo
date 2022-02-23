@@ -19,8 +19,15 @@ export default function IndexPage() {
   return (
     <div className={styles.root}>
       <div className={styles.content}>
-        {/* < */}
-         {useIn?.key}
+        <span>
+          {`用户名：${useIn?.name}`}
+        </span>
+        <span>
+          {`年龄：${useIn?.age}`}
+        </span>
+        <span>
+          {`居住地址：${useIn?.address}`}
+        </span>
       </div>
     </div>
   );
